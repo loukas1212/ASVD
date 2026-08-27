@@ -1,4 +1,4 @@
-import getinfo
+import modules.getinfo as getinfo
 import sys
 from colorama import Fore, Style, init
 

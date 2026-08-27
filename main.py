@@ -1,6 +1,6 @@
-import getinfo
-import resumeinfo
-import download
+import modules.getinfo as getinfo
+import modules.resumeinfo as resumeinfo
+import modules.download as download
 from colorama import Fore, Style, init
 
 

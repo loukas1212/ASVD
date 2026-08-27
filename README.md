@@ -1,4 +1,4 @@
-# Another Simple Video Download
+# Another Simple Video Download (v0.2)
 
 ## (Ceci est le reupload d'un ancien projet, le projet n'est pas complet et les mises à jour arriveront lentement)
 
@@ -10,7 +10,7 @@ Le script permet actuellement de télécharger uniquement des **vidéos**. Je co
 
 Le script nécessite les dépendances suivantes :
 
-`yt-dlp` et `colorama`
+`yt-dlp`, `colorama` et `tqdm`
 
 Vous pouvez les installer facilement dans un environnement virtuel (VENV) avec la commande suivante :
 
@@ -36,4 +36,4 @@ pip install -r requirements.txt --break-system-packages
 
 ---
 
-## (!!! Information importante !!! : Ce script est testé sur **macOS (26)** ; même si normalement le script devrait fonctionner sur tous les OS, je ne peux pas assurer la compatibilité.)
+(!!! Information importante !!! : Ce script est testé sur **macOS (26.6.2)** ; même si normalement le script devrait fonctionner sur tous les OS, je ne peux pas assurer la compatibilité.)
