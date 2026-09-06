@@ -1,6 +1,8 @@
 import colorama
 from colorama import Fore, Style, init
 
+init(autoreset=True)
+
 def select_resolution():
     print("---------------------------------------------------------------------------")
     print("1 - 144p")
@@ -30,7 +32,7 @@ def select_resolution():
     elif choice == "8":
         return "2160"
     else:
-        print(Fore.RED + "!!! Choix invalide, qualité par défaut sélectionnée (480p) !!!" + Style.RESET_ALL)
+        print(Fore.RED + "!!! Choix invalide, qualité par défaut sélectionnée (480p) !!!")
         return "480"
     
 def select_format():
@@ -47,5 +49,5 @@ def select_format():
     elif choice == "3":
         return "webm"
     else:
-        print(Fore.RED + "!!! Choix invalide, format par défaut sélectionné (mp4) !!!" + Style.RESET_ALL)
+        print(Fore.RED + "!!! Choix invalide, format par défaut sélectionné (mp4) !!!")
         return "mp4"

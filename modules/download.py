@@ -2,6 +2,7 @@ import yt_dlp
 from tqdm import tqdm
 from colorama import Fore, Style, init
 
+init(autoreset=True)
 
 def download_video(url, resolution, output):
     pbar = None
@@ -44,6 +45,6 @@ def download_video(url, resolution, output):
     try:
         with yt_dlp.YoutubeDL(options) as ydl:
             ydl.download([url])
-        print(Fore.GREEN + "Téléchargement réussi" + Style.RESET_ALL)
+        print(Fore.GREEN + "Téléchargement réussi")
     except Exception as error:
-        print(Fore.RED + f"!!! Téléchargement échoué, erreur : {error} !!!" + Style.RESET_ALL)
+        print(Fore.RED + f"!!! Téléchargement échoué, erreur : {error} !!!")

@@ -1,4 +1,4 @@
-# Another Simple Video Download (v0.3)
+# Another Simple Video Download (v0.4)
 
 ## (Ceci est le reupload d'un ancien projet, le projet n'est pas complet et les mises à jour arriveront lentement)
 
