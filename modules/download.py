@@ -28,7 +28,7 @@ def download_video(url, resolution, output):
                 pbar.refresh()
 
         elif d['status'] == 'finished':
-            if pbar is not None:
+            if pbar is not None: 
                 pbar.close()
                 pbar = None
 

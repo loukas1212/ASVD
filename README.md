@@ -1,4 +1,4 @@
-# Another Simple Video Download (v0.2)
+# Another Simple Video Download (v0.3)
 
 ## (Ceci est le reupload d'un ancien projet, le projet n'est pas complet et les mises à jour arriveront lentement)
 
@@ -6,7 +6,7 @@ Un script prévu pour simplifier l'usage de YT-DLP.
 
 Le script permet actuellement de télécharger uniquement des **vidéos**. Je compte ajouter le support des fichiers audio plus tard (~~quand j'aurai pas la flemme mdr~~).
 
----
+## Installation
 
 Le script nécessite les dépendances suivantes :
 
@@ -32,6 +32,21 @@ Vous pouvez également installer les paquets sur l'ensemble du système (non rec
 
 ```text
 pip install -r requirements.txt --break-system-packages
+```
+
+## Lancement
+
+pour exécuter le script, lancez simplement cette commande :
+
+```bash
+python3 main.py
+```
+
+ou, pour utiliser le script avec des arguments directement :
+
+```bash
+python3 main.py -u "url" -r 1080 -f mp4 # Exemple d'utilisation
+python3 main.y --help # Pour obtenir de l'aide
 ```
 
 ---
