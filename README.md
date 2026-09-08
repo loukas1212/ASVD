@@ -51,4 +51,4 @@ python3 main.y --help # Pour obtenir de l'aide
 
 ---
 
-(!!! Information importante !!! : Ce script est testé sur **macOS (26.6.2)** ; même si normalement le script devrait fonctionner sur tous les OS, je ne peux pas assurer la compatibilité.)
+(!!! Information importante !!! : Ce script est testé sur **macOS (27 Beta 6)** ; même si normalement le script devrait fonctionner sur tous les OS, je ne peux pas assurer la compatibilité.)
